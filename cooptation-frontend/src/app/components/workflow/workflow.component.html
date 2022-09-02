@@ -1,0 +1,44 @@
+<app-cooptations-header></app-cooptations-header>
+
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="cooptationsBar">
+            <h4>WorkFlow</h4>
+        </div>
+        </div>
+<!--**********************************
+    Content body start
+***********************************-->
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+        <div class="row">        
+            <div class="col-xl col-xxl">
+                <div class="row">
+        
+                        <div class="card">
+                                    <br>
+                                            <br>
+                            <!-- <h3> {{cooptationHistory.firstName}} {{cooptationHistory.firstName}}</h3> -->
+                            <div class="widget-timeline-icon">
+                                <ul class="timeline">
+                                    <li *ngFor="let item of  cooptationHistory ">
+                                        <div class="icon bg-primary"></div>
+                                        <a class="timeline-panel text-muted" href="#">
+                                            <h6 class="mb-2 mt-0" >{{item.status}}</h6>
+                                            <p class="fs-14 mb-0 ">{{item.date | date:'dd/MM/yyyy'}}</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <a type="button" (click)="goBack()">Retour</a>
+</div>
+<!--**********************************
+    Content body end
+***********************************-->

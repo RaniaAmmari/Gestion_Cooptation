@@ -1,0 +1,32 @@
+  .content-body {
+      margin-left: 2rem !important;
+  }
+  
+  .cooptationsBar {
+      background: #006dbf;
+      /* fallback for old browsers */
+      height: 50px;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+  }
+
+  h4 {
+      align-self: center;
+      color: aliceblue;
+  }
+h3 {
+    align-self: center;
+
+}
+  .card{
+margin-left: 15rem !important;
+width:2000px !important
+  }
+
+.content-body {
+      padding-top: 2rem !important;
+      margin-top: 5.5rem !important;
+  }
